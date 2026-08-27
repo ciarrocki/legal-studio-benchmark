@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this gold set or cite these reports, please cite the repository."
+title: "Legal Studio Benchmark"
+authors:
+  - family-names: Ciarrocki
+    given-names: Daniel
+repository-code: "https://github.com/ciarrocki/legal-studio-benchmark"
+license: CC-BY-4.0
+keywords:
+  - legal
+  - retrieval-augmented generation
+  - benchmark
+  - Delaware corporate law
+  - evaluation
+abstract: >-
+  A reviewed gold set for retrieval-grounded question answering over Delaware
+  corporate law, with published evaluation reports. Contamination is measured
+  per record against a named closed-book control; nothing unreviewed is gold;
+  expected authorities are resolved against the corpus, never written by hand.
