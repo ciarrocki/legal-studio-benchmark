@@ -1,16 +1,17 @@
 # Legal Studio Benchmark
 
-A reviewed gold set for retrieval-grounded question answering over Delaware
-corporate law, together with the published evaluation reports and the method
+A reviewed gold set of questions and answers over Delaware corporate law,
+designed for use in evaluating a retrieval and verification system.
+This repo also contains the published evaluation reports and the method
 behind the numbers. The system it measures — a retrieval and verification
 system whose answers are checked against a bounded public-sources corpus — can
 be seen replaying recorded runs at
 [legalstudio-demo.azurewebsites.net](https://legalstudio-demo.azurewebsites.net).
 
-Everything here follows one editorial rule: a quantitative claim names the
-committed report it comes from, limitations carry the same weight as results,
-and a hedge that is part of the measurement ("on this gold set", "under this
-configuration") is kept, not polished away.
+Key Rules: 
+- quantitative claims must name the committed reports they comes from
+- limitations carry the same weight as results
+- hedges that are part of the measurement ("on this gold set", "under this configuration") are kept
 
 ## The set
 
